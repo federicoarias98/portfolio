@@ -3,9 +3,10 @@
 This portfolio showcases my technical skills, projects, and resume. It serves as a comprehensive overview of my professional profile as a software developer.
 
 <video width="100%" controls>
-  <source src="/portfolio.mp4" type="video/mp4">
+  <source src="https://github.com/federiarias98/portfolio/raw/main/portfolio.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 Explore the features of my portfolio at **(https://federicoarias.netlify.app/)**. This site highlights some of my GitHub projects, technical skills, and provides a downloadable version of my resume.
 
