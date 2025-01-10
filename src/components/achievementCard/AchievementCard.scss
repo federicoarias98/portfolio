@@ -86,3 +86,47 @@
 span.certificate-tag:hover {
   background: $buttonHover;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .achievement-cards-div {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-image {
+    width: 100%;
+  }
+
+  .certificate-card-footer span.certificate-tag {
+    font-size: 0.7rem;
+    padding: 0 0.5em;
+  }
+}
