@@ -1,0 +1,58 @@
+{
+  "homepage": "https://developerfolio.js.org/",
+  "name": "developerfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.12.1",
+    "@lottiefiles/dotlottie-web": "^0.39.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "colorthief": "^2.6.0",
+    "framer-motion": "^11.16.4",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.2.1",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^5.0.1",
+    "react-test-renderer": "^18.2.0",
+    "react-twitter-embed": "4.0.4",
+    "sass": "^1.83.1",
+    "schema-utils": "^3.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider node fetch.js && react-scripts start",
+    "build": "node fetch.js && react-scripts build",
+    "vercel-build": "npm run build",
+    "vercel-dev": "vercel dev",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all",
+      "not ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "prettier": "^3.4.2"
+  }
+}
