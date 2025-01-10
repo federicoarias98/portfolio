@@ -3,7 +3,7 @@
 This portfolio showcases my technical skills, projects, and resume. It serves as a comprehensive overview of my professional profile as a software developer.
 
 <video width="100%" controls>
-  <source src="/path-to-your-video/portfolio-demo.mp4" type="video/mp4">
+  <source src="/portfolio.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
