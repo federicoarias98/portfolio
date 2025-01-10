@@ -6,6 +6,11 @@ This portfolio showcases my technical skills, projects, and resume. It serves as
   <source src="https://github.com/federiarias98/portfolio/portfolio.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<p align="center">
+  <kbd>
+<img src="https://github.com/federiarias98/portfolio/portfolio.png"></img>
+  </kbd>
+</p>
 
 
 Explore the features of my portfolio at **(https://federicoarias.netlify.app/)**. This site highlights some of my GitHub projects, technical skills, and provides a downloadable version of my resume.
