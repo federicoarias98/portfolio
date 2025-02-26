@@ -2,14 +2,9 @@
 
 This portfolio showcases my technical skills, projects, and resume. It serves as a comprehensive overview of my professional profile as a software developer.
 
-<p align="center">
-  <kbd>
-    <video width="100%" controls>
-      <source src="https://github.com/federiarias98/portfolio/raw/main/portfolio.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </kbd>
-</p>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
   
 <p align="center">
   <kbd>
