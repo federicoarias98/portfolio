@@ -3,7 +3,7 @@
 This portfolio showcases my technical skills, projects, and resume. It serves as a comprehensive overview of my professional profile as a software developer.
 
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="/portfolio.png />
 </div>
   
 <p align="center">
