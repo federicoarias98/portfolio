@@ -1,10 +1,11 @@
-## Welcome to My Personal Portfolio! 🚀
-
-This portfolio showcases my technical skills, projects, and resume. It serves as a comprehensive overview of my professional profile as a software developer.
-
 <div align="center">
   <img alt="Demo" src="/portfolio.png />
 </div>
+
+
+## Welcome to My Personal Portfolio! 🚀
+
+This portfolio showcases my technical skills, projects, and resume. It serves as a comprehensive overview of my professional profile as a software developer.
   
 Explore the features of my portfolio at **(https://federicoarias.netlify.app/)**. This site highlights some of my GitHub projects, technical skills, and provides a downloadable version of my resume.
 
