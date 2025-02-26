@@ -6,13 +6,6 @@ This portfolio showcases my technical skills, projects, and resume. It serves as
   <img alt="Demo" src="/portfolio.png />
 </div>
   
-<p align="center">
-  <kbd>
-<img src="https://github.com/federiarias98/portfolio/raw/main/portfolio.png"></img>
-  </kbd>
-</p>
-
-
 Explore the features of my portfolio at **(https://federicoarias.netlify.app/)**. This site highlights some of my GitHub projects, technical skills, and provides a downloadable version of my resume.
 
 ## Technologies Used
