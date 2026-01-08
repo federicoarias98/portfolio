@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Footer.scss";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
+
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
@@ -16,7 +16,9 @@ export default function Footer() {
           <span className="footer-name"> FedericoArias</span>
         </p>
 
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>2025</p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          © 2025
+        </p>
       </div>
     </Fade>
   );
