@@ -1,36 +1,26 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
   username: "FedericoArias",
-  title: "Hi all, I'm Federico",
+  title: "Full Stack Developer & Product Architect",
   subTitle: emoji(
-    "A passionate Software Engineering student with a solid background in software development, data analysis, and relational databases. I have worked on projects that integrate multiple languages and technologies such as PHP, Python, Angular, React, HTML and CSS."
+    "Full Stack Developer with a strong focus on product architecture and scalable system design. I build production-ready platforms that balance technical robustness, user experience, and real business needs across multiple industries."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  displayGreeting: true,
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/federicoarias98",
@@ -39,199 +29,211 @@ const socialMediaLinks = {
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
-// Skills Section
-
 const skillsSection = {
-  title: "What I do",
-  subTitle: "APASSIONATE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Build",
+  subTitle: "Designing and building scalable digital platforms",
   skills: [
-    emoji("⚡ Development of highly interactive software solutions, including interfaces for web applications, mobile apps, and Big Data systems."),
-    emoji("⚡ Implementation of relational and non-relational databases with MySQL, PostgreSQL, and optimization of SQL queries for data science and software development projects."),
-    emoji("⚡ Integration of cloud services such as AWS and data visualization tools like Power BI for advanced analytics and strategic visualization.")
+    emoji(
+      "⚡ Design and development of full-stack digital platforms, focusing on product architecture, scalability, and long-term maintainability."
+    ),
+    emoji(
+      "⚡ Translation of business requirements into structured systems and reliable software solutions used in real production environments."
+    ),
+    emoji(
+      "⚡ Implementation of robust backend systems, databases, and integrations to support complex workflows and data-driven operations."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Databases", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
-// Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Colegio Mundos Posibles",
-      logo: require("./assets/images/mp_logo.jpg"),
-      subHeader: "High School Graduate",
-      duration: "2004 - 2016",
-      desc: "Graduated from high school with a solid academic foundation, where I participated in various cultural and sports activities. These experiences helped me develop key skills such as teamwork, leadership, and time management.",
-      /*descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]*/
-    },
-    {
-      schoolName: "Corporacion Universitaria Iberoamericana",
+      schoolName: "Iberoamericana University",
       logo: require("./assets/images/Ibero_logo.jpg"),
-      subHeader: "Software Engineering",
-      duration: "2024 - now",
-      desc: "Currently pursuing a degree in Software Engineering at a recognized university, with a focus on key areas like Software Engineering, Web Security, and Operating Systems. I have demonstrated strong performance in my courses and actively participate in university projects to enhance my practical skills.",
-      /*descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]*/
-    }
-  ]
-};
-
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Software Development ", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      subHeader: "B.S. in Software Engineering (In Progress)",
+      duration: "2024 – Present",
+      desc: "Formal academic training in software engineering with emphasis on system design, web security, and operating systems. The program complements hands-on experience building real-world digital platforms and production systems.",
     },
     {
-      Stack: "SQL & Database Management ",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Cloud Services & Data Visualization",
-      progressPercentage: "75%"
-    },
-    {
-      Stack: "Web Development",
-      progressPercentage: "80%"
+      schoolName: "Mundos Posibles High School",
+      logo: require("./assets/images/mp_logo.jpg"),
+      subHeader: "High School Diploma",
+      duration: "2004 – 2016",
+      desc: "Completed secondary education with a strong academic foundation and early exposure to teamwork, discipline, and structured learning.",
     },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
-
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+const techStack = {
+  viewSkillBars: true,
   experience: [
     {
-      role: "Support Asssitant",
-      company: "Xarasoft SAS",
-      companylogo: require("./assets/images/xarasoft.jpg"),
-      date: "2016 – 2017",
-      desc: "Provided technical support to clients, resolving software-related issues and maintaining high customer satisfaction. Collaborated with the development team to identify and fix bugs, enhancing software stability. Trained users on new features, promoting efficient adoption of tools by clients. Documented processes and solutions in a knowledge base, ensuring efficient access to key information for the support team.",
-      /*descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]*/
+      Stack: "Platform & Software Architecture",
+      progressPercentage: "85%",
     },
     {
-      role: "Technician",
-      company: "AVD Colombia",
-      companylogo: require("./assets/images/avd.jpg"),
-      date: "2021 – 2023",
-      desc: "Installed and configured security camera systems and audiovisual equipment in various judicial facilities nationwide, ensuring proper functionality. Diagnosed and repaired equipment, reducing downtime and ensuring customer satisfaction. Provided client training and guidance on equipment use and maintenance. Collaborated on project planning and execution, meeting deadlines effectively as part of a team."
+      Stack: "Backend & Database Systems",
+      progressPercentage: "80%",
     },
+    {
+      Stack: "Cloud & Infrastructure",
+      progressPercentage: "75%",
+    },
+    {
+      Stack: "Web Application Development",
+      progressPercentage: "80%",
+    },
+  ],
 
-  ]
+  displayCodersrank: false,
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+const workExperiences = {
+  display: false, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Full Stack Developer / E-commerce Builder",
+      company: "Henku",
+      companylogo: require("./assets/images/henku.png"),
+      date: "2023",
+      desc: "E-commerce platform developed for a consumer brand focused on personal care products. Designed and implemented the website to showcase products, manage online sales, and communicate brand identity. Built product pages with detailed descriptions, pricing, and visuals, ensuring a smooth user experience. Participated in the digital launch of the brand, supporting online presence and product distribution through the web platform.",
+    },
+    {
+      role: "Full Stack Developer / Product Builder",
+      company: "TrueMatch",
+      companylogo: require("./assets/images/truematch.png"),
+      date: "2024",
+      desc: "Social dating platform designed to connect users through meaningful interactions in a digital environment. The project focused on building an engaging, scalable product that blends social networking, real-time interaction, and digital monetization. TrueMatch was developed with a strong emphasis on user experience, platform flow, and product architecture, aiming to deliver a complete and immersive online dating experience.",
+    },
+    {
+      role: "Full Stack Developer / Product Builder",
+      company: "AcadSuite",
+      companylogo: require("./assets/images/xarasoft.png"),
+      date: "2024",
+      desc: "Web-based educational management platform built to optimize academic and administrative workflows for educational institutions. The project focused on maintaining and evolving a production-ready system, improving stability, performance, and usability. Real user feedback played a key role in shaping continuous improvements, strengthening platform reliability, adoption, and overall user experience.",
+    },
+    {
+      role: "Full Stack Developer / Product Architect",
+      company: "VitalOS",
+      companylogo: require("./assets/images/vitalos.png"),
+      date: "2025",
+      desc: "Digital healthcare management platform designed to support operational workflows within medical and clinical environments. The project focused on building a structured, secure, and scalable system capable of handling sensitive processes and role-based interactions. VitalOS emphasizes system reliability, user experience, and modular architecture, aiming to deliver a robust foundation for healthcare operations and future growth.",
+    },
+    {
+      role: "Full Stack Developer / Product Builder",
+      company: "PINMB",
+      companylogo: require("./assets/images/pinmb.png"),
+      date: "2025",
+      desc: "Digital proptech platform conceived to explore modern approaches to real estate investment through technology. The project focused on product architecture, user trust, and scalable system design, aiming to deliver a transparent and accessible investment experience. PINMB was developed as an MVP with a strong emphasis on platform structure, long-term scalability, and product strategy.",
+    },
+    {
+      role: "Full Stack Developer / Product Builder",
+      company: "BigToys",
+      companylogo: require("./assets/images/bigtoys.png"),
+      date: "2025",
+      desc: "Specialized e-commerce platform developed for a niche consumer market, focused on delivering a structured, reliable, and scalable online shopping experience. The project emphasized product organization, operational flow, and user experience, supporting both customer interaction and business operations. BigToys was built as a production-ready digital storefront with a strong focus on long-term maintainability and growth.",
+    },
+    {
+      role: "Full Stack Developer / Product Architect",
+      company: "LivingTrips",
+      companylogo: require("./assets/images/livingtrips.png"),
+      date: "Coming Soon",
+      desc: "Internal B2B platform designed as the core operational and commercial system for professional tour operators. LivingTrips was conceived as a modular, scalable solution to manage complex travel operations through structured workflows and controlled processes. The project emphasizes product architecture, long-term evolution, and system reliability, serving as a foundational platform for enterprise-level travel management.",
+    },
+  ],
+};
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
-// Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Selected product platforms and systems I have built",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/livingtrips.png"),
+      projectName: "LivingTrips",
+      projectRole: "Full Stack Developer / Product Architect",
+      projectDesc:
+        "Internal B2B platform designed as the core operational and commercial system for professional tour operators, focused on modular architecture, reliability, and long-term scalability.",
+      footerLink: [],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+      image: require("./assets/images/vitalos.png"),
+      projectName: "VitalOS",
+      projectRole: "Full Stack Developer / Product Architect",
+      projectDesc:
+        "Digital healthcare management platform built to support clinical operations through structured workflows, role-based interactions, and a secure, scalable foundation for growth.",
+      footerLink: [],
+    },
+    {
+      image: require("./assets/images/pinmb.png"),
+      projectName: "PINMB",
+      projectRole: "Full Stack Developer / Product Builder",
+      projectDesc:
+        "Digital proptech MVP exploring modern real estate investment experiences with an emphasis on platform structure, user trust, and scalable product design.",
+      footerLink: [],
+    },
+    {
+      image: require("./assets/images/bigtoys.png"),
+      projectName: "BigToys",
+      projectRole: "Full Stack Developer / Product Builder",
+      projectDesc:
+        "Specialized e-commerce platform built for a niche retail market, focused on structured shopping flow, operational reliability, and long-term maintainability.",
+      footerLink: [],
+    },
+    {
+      image: require("./assets/images/truematch.png"),
+      projectName: "TrueMatch",
+      projectRole: "Full Stack Developer / Product Builder",
+      projectDesc:
+        "Social dating platform designed to connect users through meaningful interactions, blending social networking, real-time engagement, and digital monetization within a scalable product experience.",
+      footerLink: [],
+    },
+    {
+      image: require("./assets/images/henku.png"),
+      projectName: "Henku",
+      projectRole: "Full Stack Developer / E-commerce Builder",
+      projectDesc:
+        "E-commerce platform developed for a personal care brand, focused on product presentation, online sales, and a consistent brand experience through a clean storefront and catalog.",
+      footerLink: [],
+    },
+    {
+      image: require("./assets/images/xarasoft.png"),
+      projectName: "AcadSuite",
+      projectRole: "Full Stack Developer / Product Builder",
+      projectDesc:
+        "Educational management platform optimized for academic and administrative workflows, strengthened through continuous improvements focused on stability, usability, and real user feedback.",
+      footerLink: [],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true,
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements And Certifications  "),
+  title: emoji("Certifications & Professional Training"),
   /*subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
     */
@@ -239,118 +241,124 @@ const achievementSection = {
     {
       title: "Python for Data Science",
       subtitle:
-        "I've mastered Python for Data Science, focusing on data analysis, visualization, and machine learning to solve real-world problems.",
+        "Professional training in Python applied to data analysis, visualization, and machine learning, supporting data-driven features and system insights within software platforms.",
       image: require("./assets/images/python.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://courses.cognitiveclass.ai/certificates/9fef3c47c20a4d8382304ac989b0c11b"
+          url: "https://courses.cognitiveclass.ai/certificates/9fef3c47c20a4d8382304ac989b0c11b",
         },
-      ]
+      ],
     },
     {
       title: "SQL and Relational Databases",
       subtitle:
-        "I've developed expertise in SQL and Relational Databases, enabling efficient data management and complex queries for structured data.",
+        "Formal training in relational databases and SQL, reinforcing efficient data modeling, query optimization, and reliable data management for production systems.",
       image: require("./assets/images/sql.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://courses.cognitiveclass.ai/certificates/57e5fed877b0456b8e8457edc413b408"
-        }
-      ]
+          url: "https://courses.cognitiveclass.ai/certificates/57e5fed877b0456b8e8457edc413b408",
+        },
+      ],
     },
     {
       title: "JavaScript Essentials",
-      subtitle: "Through mastering JavaScript Essentials, I can now craft dynamic web applications that deliver engaging and seamless user experiences.",
+      subtitle:
+        "Foundational certification in JavaScript, supporting the development of dynamic and maintainable web applications.",
       image: require("./assets/images/JavaScript.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.netacad.com/es/certificates?issuanceId=4fc81df8-ff54-4fe1-b912-23878c5150c4"
-        }
-      ]
+          url: "https://www.netacad.com/es/certificates?issuanceId=4fc81df8-ff54-4fe1-b912-23878c5150c4",
+        },
+      ],
     },
     {
       title: "Big Data",
-      subtitle: "Specializing in Big Data, I leverage advanced techniques to process and analyze massive datasets, uncovering valuable insights for data-driven decision-making.",
+      subtitle:
+        "Training in Big Data concepts and data processing techniques, strengthening understanding of large-scale data handling and analytics.",
       image: require("./assets/images/Bigdata.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://courses.cognitiveclass.ai/certificates/3396433e4dba4b67a9621b665ed9bf1b"
-        }
-      ]
+          url: "https://courses.cognitiveclass.ai/certificates/3396433e4dba4b67a9621b665ed9bf1b",
+        },
+      ],
     },
     {
       title: "Ethical Hacker",
-      subtitle: "With expertise in Ethical Hacking, I am equipped to identify vulnerabilities and secure systems, ensuring robust protection against cyber threats.",
+      subtitle:
+        "Certification in Ethical Hacking focused on identifying vulnerabilities and securing systems, complementing the design of robust and secure digital platforms.",
+
       image: require("./assets/images/EthicalHacker.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.credly.com/badges/318bf2c5-b408-46a8-8a3d-15d5e2ac426b"
-        }
-      ]
+          url: "https://www.credly.com/badges/318bf2c5-b408-46a8-8a3d-15d5e2ac426b",
+        },
+      ],
     },
     {
       title: "Data Science",
-      subtitle: "Skilled in Data Science, I apply statistical analysis, machine learning, and data visualization to extract meaningful insights and drive informed decisions.",
+      subtitle:
+        "Professional training in data science methodologies, supporting analytical thinking and data-informed decision-making in software products.",
       image: require("./assets/images/DataScience.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://courses.cognitiveclass.ai/certificates/9e57ea3707664529bdd509f1ca27ad3d"
-        }
-      ]
+          url: "https://courses.cognitiveclass.ai/certificates/9e57ea3707664529bdd509f1ca27ad3d",
+        },
+      ],
     },
     {
       title: "Elementos of AI",
-      subtitle: "Through the 'Elements of AI' course from the University of Helsinki, I gained foundational knowledge in artificial intelligence, exploring key concepts and applications in real-world scenarios.",
+      subtitle:
+        "Foundational training in artificial intelligence concepts, enhancing understanding of AI-driven features and modern system capabilities.",
       image: require("./assets/images/AI.jpg"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://certificates.mooc.fi/validate/f603toa833e"
-        }
-      ]
+          url: "https://certificates.mooc.fi/validate/f603toa833e",
+        },
+      ],
     },
     {
       title: "Cloud Essentials by IBM",
-      subtitle: "Cloud Essentials by YBM provided me with a solid understanding of cloud computing, focusing on key concepts, deployment models, and cloud services to drive scalable solutions.",
+      subtitle:
+        "Cloud computing fundamentals certification, reinforcing knowledge of cloud services, deployment models, and scalable infrastructure design.",
       image: require("./assets/images/cloud.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://courses.cognitiveclass.ai/certificates/9cb87ce57d424dae8e6f4f639c5f0b56"
-        }
-      ]
+          url: "https://courses.cognitiveclass.ai/certificates/9cb87ce57d424dae8e6f4f639c5f0b56",
+        },
+      ],
     },
     {
       title: "Machine Learning Modelling",
-      subtitle: "With expertise in Machine Learning Modeling, I design and implement algorithms to train models, predict outcomes, and optimize performance for data-driven solutions.",
+      subtitle:
+        "Training in machine learning modeling techniques, providing a solid foundation for building and understanding predictive systems.",
       image: require("./assets/images/machine.png"),
       imageAlt: "Certification",
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.mygreatlearning.com/certificate/RYZPMCIY"
-        }
-      ]
-    }
+          url: "https://www.mygreatlearning.com/certificate/RYZPMCIY",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
@@ -362,19 +370,17 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
-
-// Talks Sections
 
 const talkSection = {
   title: "TALKS",
@@ -387,13 +393,11 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      event_url: "https://www.facebook.com/events/2339906106275053/",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
-
-// Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
@@ -401,33 +405,30 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
-// Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me 📞 "),
+  title: emoji("Let’s Work Together"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Open to discussing product development, platform architecture, or long-term technical collaborations. Feel free to reach out.",
   number: "+57-314-849-0885",
-  email_address: "ariasfederico.dev@gmail.com"
+  email_address: "ariasfederico.dev@gmail.com",
 };
-
-// Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -441,8 +442,8 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
+  openSource,
   achievementSection,
   blogSection,
   talkSection,
@@ -450,5 +451,5 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
 };

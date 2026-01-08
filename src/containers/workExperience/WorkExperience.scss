@@ -4,6 +4,13 @@
   gap: 1rem 1rem;
 }
 
+/* Desktop: fuerza 3 columnas */
+@media (min-width: 1024px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 .experience-heading {
   font-size: 56px;
   font-weight: 400;

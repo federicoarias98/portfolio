@@ -61,7 +61,21 @@
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  gap: 1rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .projects-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .projects-container {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .project-card-footer span.project-tag {
@@ -87,4 +101,24 @@
     font-size: 16px;
     text-align: center;
   }
+}
+
+.project-role {
+  margin: 0.25rem 0 0.75rem 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+/* Si tu .dark-mode cambia colores, esto ayuda a mantenerlo legible */
+.dark-mode.project-role {
+  opacity: 0.9;
+}
+
+.project-roundedimg {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }

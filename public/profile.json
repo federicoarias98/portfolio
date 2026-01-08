@@ -1,1 +1,11 @@
-{"data":{"user":{"name":"Federico Arias Ruiz","bio":"I am a Software Engineering student with a solid background in software development, data analysis, and relational databases. ","avatarUrl":"https://avatars.githubusercontent.com/u/177694927?u=d547f0d9bd1416793b77201792ba4230cb696022&v=4","location":"Manizales, Caldas","pinnedItems":{"totalCount":0,"edges":[]}}}}
+{
+  "data": {
+    "user": {
+      "name": "Federico Arias Ruiz",
+      "bio": "Full Stack Developer and product builder focused on scalable digital platforms. Currently pursuing a degree in Software Engineering.",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/177694927?u=9fd3181c55f626e94df1a6c0d863fc5d3a040a3f&v=4",
+      "location": "Manizales, Caldas",
+      "pinnedItems": { "totalCount": 0, "edges": [] }
+    }
+  }
+}

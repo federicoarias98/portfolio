@@ -88,3 +88,11 @@ $medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;
 $kaggle: #20beff;
+
+@font-face {
+  font-family: "Agustina";
+  src: url("./assets/fonts/Agustina.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
