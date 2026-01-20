@@ -172,14 +172,14 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Selected product platforms and systems I have built",
   projects: [
-    {
+    /*{
       image: require("./assets/images/livingtrips.png"),
       projectName: "LivingTrips",
       projectRole: "Full Stack Developer / Product Architect",
       projectDesc:
         "Internal B2B platform designed as the core operational and commercial system for professional tour operators, focused on modular architecture, reliability, and long-term scalability.",
       footerLink: [],
-    },
+    },*/
     {
       image: require("./assets/images/vitalos.png"),
       projectName: "VitalOS",
