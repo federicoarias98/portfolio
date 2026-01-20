@@ -15,7 +15,7 @@ const greeting = {
   username: "FedericoArias",
   title: "Full Stack Developer & Product Architect",
   subTitle: emoji(
-    "Full Stack Developer with a strong focus on product architecture and scalable system design. I build production-ready platforms that balance technical robustness, user experience, and real business needs across multiple industries."
+    "Full Stack Developer with a strong focus on product architecture and scalable system design. I build production-ready platforms that balance technical robustness, user experience, and real business needs across multiple industries.",
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -37,13 +37,13 @@ const skillsSection = {
   subTitle: "Designing and building scalable digital platforms",
   skills: [
     emoji(
-      "⚡ Design and development of full-stack digital platforms, focusing on product architecture, scalability, and long-term maintainability."
+      "⚡ Design and development of full-stack digital platforms, focusing on product architecture, scalability, and long-term maintainability.",
     ),
     emoji(
-      "⚡ Translation of business requirements into structured systems and reliable software solutions used in real production environments."
+      "⚡ Translation of business requirements into structured systems and reliable software solutions used in real production environments.",
     ),
     emoji(
-      "⚡ Implementation of robust backend systems, databases, and integrations to support complex workflows and data-driven operations."
+      "⚡ Implementation of robust backend systems, databases, and integrations to support complex workflows and data-driven operations.",
     ),
   ],
 
@@ -153,13 +153,13 @@ const workExperiences = {
       date: "2025",
       desc: "Specialized e-commerce platform developed for a niche consumer market, focused on delivering a structured, reliable, and scalable online shopping experience. The project emphasized product organization, operational flow, and user experience, supporting both customer interaction and business operations. BigToys was built as a production-ready digital storefront with a strong focus on long-term maintainability and growth.",
     },
-    {
+    /* {
       role: "Full Stack Developer / Product Architect",
       company: "LivingTrips",
       companylogo: require("./assets/images/livingtrips.png"),
       date: "Coming Soon",
       desc: "Internal B2B platform designed as the core operational and commercial system for professional tour operators. LivingTrips was conceived as a modular, scalable solution to manage complex travel operations through structured workflows and controlled processes. The project emphasizes product architecture, long-term evolution, and system reliability, serving as a foundational platform for enterprise-level travel management.",
-    },
+    },*/
   ],
 };
 
@@ -385,7 +385,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
   ),
 
   talks: [
