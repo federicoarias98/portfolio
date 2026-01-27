@@ -173,7 +173,7 @@ const bigProjects = {
   subtitle: "Selected product platforms and systems I have built",
   projects: [
     {
-      image: require("./assets/images/sirio.jpeg"),
+      image: require("./assets/images/sirio.png"),
       projectName: "Sirio Miner Group",
       projectRole: "Full Stack Developer / Technical Partner",
       projectDesc:
