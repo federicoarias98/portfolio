@@ -17,7 +17,7 @@ export default function Footer() {
         </p>
 
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          © 2025
+          © 2026
         </p>
       </div>
     </Fade>
